@@ -30,6 +30,7 @@ ADAPTERS = %w(
   postgis
   makara_postgis
   sqlite3
+  sqlite3_proxy
   spatialite
   seamless_database_pool
   trilogy
