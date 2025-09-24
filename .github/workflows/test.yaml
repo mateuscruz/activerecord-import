@@ -165,6 +165,7 @@ jobs:
         if: ${{ matrix.env.AR_VERSION >= '7.0' && !startsWith(matrix.ruby, 'jruby') }}
         run: |
           bundle exec rake test:trilogy
+          bundle exec rake test:trilogy_proxy
           bundle exec rake test:janus_trilogy
 
   lint:

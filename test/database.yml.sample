@@ -67,6 +67,11 @@ trilogy:
   adapter: trilogy
   host: mysql
 
+trilogy_proxy:
+  <<: *common
+  adapter: trilogy
+  host: mysql
+
 janus_trilogy:
   <<: *common
   adapter: trilogy

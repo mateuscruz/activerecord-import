@@ -33,6 +33,7 @@ ADAPTERS = %w(
   spatialite
   seamless_database_pool
   trilogy
+  trilogy_proxy
   janus_trilogy
 ).freeze
 ADAPTERS.each do |adapter|

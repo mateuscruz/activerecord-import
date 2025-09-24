@@ -80,6 +80,10 @@ trilogy:
   <<: *common
   adapter: trilogy
 
+trilogy_proxy:
+  <<: *common
+  adapter: trilogy
+
 janus_trilogy:
   <<: *common
   adapter: trilogy
